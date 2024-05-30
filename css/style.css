@@ -1,0 +1,238 @@
+/* All comon css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding: 0;
+    line-height: .8;
+}
+/* .container{
+    width: 1320px;
+    margin: 0 auto;
+} */
+/* All comon css end */
+/* nave bar start */
+.navbar {
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link i{
+    vertical-align: middle;
+    margin-left: 1px;
+    padding: 0px 20px;
+   
+}
+.navbar-collapse ul{
+	padding-bottom: 25px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	font-family: "Jost", sans-serif;
+	padding: 0 25px;
+}
+/* .navbar-expand-lg .navbar-nav .nav-link li{
+    margin-bottom: 30px;
+} */
+.contact_btn {
+	background: #9064F5;
+	color: rgb(255, 255, 255);
+	padding: 25px 50px;
+	border-radius: 10px;
+    font-family: "Jost", sans-serif;
+
+}
+.contact_btn a{
+	color: white;
+}
+/* nave bar end */
+
+/* Banner part start */
+#banner_part{
+padding-top:220px;
+padding-bottom: 70px;
+background:url(../images/Gradian.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.banner_text h1 {
+	font-size: 90px;
+	line-height: 110px;
+	font-weight: 700;
+	font-family: "Vollkorn", serif;
+    padding-top: 110px;
+    padding-bottom: 25px;
+}
+.banner_text p {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: "Vollkorn", serif;
+	padding-left: 30px;
+	border-left: 7px solid #FFC556;
+}
+.banner_signup input{
+   width: 70%;
+   padding: 25px 30px;
+   background: rgba(162, 91, 228, 0.205);
+   border: none;
+   border-radius: 10px;
+}
+.banner_signup input::placeholder{
+    color: black;
+    opacity: 1;
+    font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: "Vollkorn", serif;
+}
+.banner_signup{
+position: relative;
+}
+.banner_signup a {
+	background: #9064F5;
+	color: white;
+	padding: 15px 50px;
+	border-radius: 10px;
+	font-family: "Jost", sans-serif;
+	position: absolute;
+	right: 240px;
+	top: 10px;
+}
+/* Banner part end */
+
+/* clint part start */
+#clint_part{
+    padding: 50px 0;
+}
+.row{
+    justify-content: space-between;
+}
+/* clint part end */
+
+/* Features part end */
+#features_part{
+	padding: 100px 0;
+	background:url(../images/Gradian.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.features_left h3 {
+	font-size: 56px;
+	line-height: 70px;
+	font-weight: 700;
+	font-family: "Vollkorn", serif;
+	color: #29313D;
+	padding-right: 155px;
+}
+.features_p p {
+	color: #29313D;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: "Vollkorn", serif;
+	margin-top: 35px;
+	position: relative;
+}
+.features_p p::after {
+	position: absolute;
+	height: 110px;
+	width: 6px;
+	background: #FFC556;
+	bottom: -10px;
+	content: "";
+	left: -20px;
+}
+.features_item_part{
+	display: flex;
+}
+.icon_with_heading{
+	display: flex;
+	justify-content: space-between;
+}
+.box{
+	width: 70px;
+	height: 70px;
+	background: rgba(254, 196, 95, 0.15);
+	position: relative;
+	border-radius: 14px;
+}
+.box i{
+	font-size: 30px;
+	color: #FEC35F;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.icon_with_heading h3{
+    font-size: 28px;
+	font-weight: 700;
+	font-family: "Vollkorn", serif;
+	margin-top: 20px;
+	margin-right: 70px;
+}
+.features_item p {
+	color: #29313D;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 400;
+	font-family: "Vollkorn", serif;
+	margin-top: 20px;
+	padding-right: 70px;
+}
+.features_item a{
+	font-size: 25px;
+	font-weight: 700;
+	font-family: "Vollkorn", serif;
+	color: #29313D;
+}
+.features_item{
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 20px;
+	background: rgb(244, 243, 243);
+}
+.features_item:hover{
+	background: #8454F5;
+}
+.features_item:hover .icon_with_heading .box{
+    background: rgba(252, 252, 254, 0.15);
+}
+.features_item:hover .icon_with_heading .box i{
+	background: #fff;
+
+}
+.features_item:hover .icon_with_heading h3{
+	background: #fff;
+}
+.features_item:hover p{
+	background: #fff;
+}
+.features_item:hover a{
+	background: #fff;
+}
+
+/* Features part end */
+
+/* Features part start */
+
+/* Features part end */
