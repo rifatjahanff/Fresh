@@ -127,7 +127,7 @@ position: relative;
 }
 /* clint part end */
 
-/* Features part end */
+/* Features part start */
 #features_part{
 	padding: 100px 0;
 	background:url(../images/Gradian.png);
@@ -188,7 +188,7 @@ position: relative;
 	font-weight: 700;
 	font-family: "Vollkorn", serif;
 	margin-top: 20px;
-	margin-right: 70px;
+	padding-right: 70px;
 }
 .features_item p {
 	color: #29313D;
@@ -206,7 +206,6 @@ position: relative;
 	color: #29313D;
 }
 .features_item{
-	border: 1px solid black;
 	border-radius: 15px;
 	padding: 20px;
 	background: rgb(244, 243, 243);
@@ -218,21 +217,32 @@ position: relative;
     background: rgba(252, 252, 254, 0.15);
 }
 .features_item:hover .icon_with_heading .box i{
-	background: #fff;
-
+	color: #fff;
 }
 .features_item:hover .icon_with_heading h3{
-	background: #fff;
+	color: #fff;
 }
 .features_item:hover p{
-	background: #fff;
+	color: #fff;
 }
 .features_item:hover a{
-	background: #fff;
+	color: #fff;
+}
+.last{
+	font-size: 28px;
+	font-weight: 700;
+	font-family: "Vollkorn", serif;
+	margin-top: 20px;
+	padding-right: 20px !important;
 }
 
 /* Features part end */
 
-/* Features part start */
-
-/* Features part end */
+/* business goals part start */
+#goals_left_item{
+	background: url(../images/Illustration.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* business goals part end */
